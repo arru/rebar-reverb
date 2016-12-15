@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C94FB9D1E0291A5009B76EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C94FB9C1E0291A5009B76EF /* AppDelegate.swift */; };
+		3C94FB9F1E0291A5009B76EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C94FB9E1E0291A5009B76EF /* ViewController.swift */; };
+		3C94FBA21E0291A5009B76EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C94FBA01E0291A5009B76EF /* Main.storyboard */; };
+		3C94FBA41E0291A5009B76EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C94FBA31E0291A5009B76EF /* Assets.xcassets */; };
+		3C94FBA71E0291A5009B76EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C94FBA51E0291A5009B76EF /* LaunchScreen.storyboard */; };
+		3C94FBB21E0291A5009B76EF /* RebarReverbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C94FBB11E0291A5009B76EF /* RebarReverbTests.swift */; };
+		3C94FBBD1E0291A5009B76EF /* RebarReverbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C94FBBC1E0291A5009B76EF /* RebarReverbUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C94FBAE1E0291A5009B76EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C94FB911E0291A4009B76EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C94FB981E0291A4009B76EF;
+			remoteInfo = RebarReverb;
+		};
+		3C94FBB91E0291A5009B76EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C94FB911E0291A4009B76EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C94FB981E0291A4009B76EF;
+			remoteInfo = RebarReverb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C94FB991E0291A5009B76EF /* RebarReverb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RebarReverb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C94FB9C1E0291A5009B76EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C94FB9E1E0291A5009B76EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C94FBA11E0291A5009B76EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C94FBA31E0291A5009B76EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C94FBA61E0291A5009B76EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C94FBA81E0291A5009B76EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C94FBAD1E0291A5009B76EF /* RebarReverbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RebarReverbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C94FBB11E0291A5009B76EF /* RebarReverbTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebarReverbTests.swift; sourceTree = "<group>"; };
+		3C94FBB31E0291A5009B76EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C94FBB81E0291A5009B76EF /* RebarReverbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RebarReverbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C94FBBC1E0291A5009B76EF /* RebarReverbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebarReverbUITests.swift; sourceTree = "<group>"; };
+		3C94FBBE1E0291A5009B76EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C94FB961E0291A4009B76EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C94FBAA1E0291A5009B76EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C94FBB51E0291A5009B76EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C94FB901E0291A4009B76EF = {
+			isa = PBXGroup;
+			children = (
+				3C94FB9B1E0291A5009B76EF /* RebarReverb */,
+				3C94FBB01E0291A5009B76EF /* RebarReverbTests */,
+				3C94FBBB1E0291A5009B76EF /* RebarReverbUITests */,
+				3C94FB9A1E0291A5009B76EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C94FB9A1E0291A5009B76EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C94FB991E0291A5009B76EF /* RebarReverb.app */,
+				3C94FBAD1E0291A5009B76EF /* RebarReverbTests.xctest */,
+				3C94FBB81E0291A5009B76EF /* RebarReverbUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C94FB9B1E0291A5009B76EF /* RebarReverb */ = {
+			isa = PBXGroup;
+			children = (
+				3C94FB9C1E0291A5009B76EF /* AppDelegate.swift */,
+				3C94FB9E1E0291A5009B76EF /* ViewController.swift */,
+				3C94FBA01E0291A5009B76EF /* Main.storyboard */,
+				3C94FBA31E0291A5009B76EF /* Assets.xcassets */,
+				3C94FBA51E0291A5009B76EF /* LaunchScreen.storyboard */,
+				3C94FBA81E0291A5009B76EF /* Info.plist */,
+			);
+			path = RebarReverb;
+			sourceTree = "<group>";
+		};
+		3C94FBB01E0291A5009B76EF /* RebarReverbTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C94FBB11E0291A5009B76EF /* RebarReverbTests.swift */,
+				3C94FBB31E0291A5009B76EF /* Info.plist */,
+			);
+			path = RebarReverbTests;
+			sourceTree = "<group>";
+		};
+		3C94FBBB1E0291A5009B76EF /* RebarReverbUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C94FBBC1E0291A5009B76EF /* RebarReverbUITests.swift */,
+				3C94FBBE1E0291A5009B76EF /* Info.plist */,
+			);
+			path = RebarReverbUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C94FB981E0291A4009B76EF /* RebarReverb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C94FBC11E0291A5009B76EF /* Build configuration list for PBXNativeTarget "RebarReverb" */;
+			buildPhases = (
+				3C94FB951E0291A4009B76EF /* Sources */,
+				3C94FB961E0291A4009B76EF /* Frameworks */,
+				3C94FB971E0291A4009B76EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RebarReverb;
+			productName = RebarReverb;
+			productReference = 3C94FB991E0291A5009B76EF /* RebarReverb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C94FBAC1E0291A5009B76EF /* RebarReverbTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C94FBC41E0291A5009B76EF /* Build configuration list for PBXNativeTarget "RebarReverbTests" */;
+			buildPhases = (
+				3C94FBA91E0291A5009B76EF /* Sources */,
+				3C94FBAA1E0291A5009B76EF /* Frameworks */,
+				3C94FBAB1E0291A5009B76EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C94FBAF1E0291A5009B76EF /* PBXTargetDependency */,
+			);
+			name = RebarReverbTests;
+			productName = RebarReverbTests;
+			productReference = 3C94FBAD1E0291A5009B76EF /* RebarReverbTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C94FBB71E0291A5009B76EF /* RebarReverbUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C94FBC71E0291A5009B76EF /* Build configuration list for PBXNativeTarget "RebarReverbUITests" */;
+			buildPhases = (
+				3C94FBB41E0291A5009B76EF /* Sources */,
+				3C94FBB51E0291A5009B76EF /* Frameworks */,
+				3C94FBB61E0291A5009B76EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C94FBBA1E0291A5009B76EF /* PBXTargetDependency */,
+			);
+			name = RebarReverbUITests;
+			productName = RebarReverbUITests;
+			productReference = 3C94FBB81E0291A5009B76EF /* RebarReverbUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C94FB911E0291A4009B76EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				TargetAttributes = {
+					3C94FB981E0291A4009B76EF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = A;
+						ProvisioningStyle = Automatic;
+					};
+					3C94FBAC1E0291A5009B76EF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C94FB981E0291A4009B76EF;
+					};
+					3C94FBB71E0291A5009B76EF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C94FB981E0291A4009B76EF;
+					};
+				};
+			};
+			buildConfigurationList = 3C94FB941E0291A4009B76EF /* Build configuration list for PBXProject "RebarReverb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C94FB901E0291A4009B76EF;
+			productRefGroup = 3C94FB9A1E0291A5009B76EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C94FB981E0291A4009B76EF /* RebarReverb */,
+				3C94FBAC1E0291A5009B76EF /* RebarReverbTests */,
+				3C94FBB71E0291A5009B76EF /* RebarReverbUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C94FB971E0291A4009B76EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C94FBA71E0291A5009B76EF /* LaunchScreen.storyboard in Resources */,
+				3C94FBA41E0291A5009B76EF /* Assets.xcassets in Resources */,
+				3C94FBA21E0291A5009B76EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C94FBAB1E0291A5009B76EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C94FBB61E0291A5009B76EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C94FB951E0291A4009B76EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C94FB9F1E0291A5009B76EF /* ViewController.swift in Sources */,
+				3C94FB9D1E0291A5009B76EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C94FBA91E0291A5009B76EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C94FBB21E0291A5009B76EF /* RebarReverbTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C94FBB41E0291A5009B76EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C94FBBD1E0291A5009B76EF /* RebarReverbUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C94FBAF1E0291A5009B76EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C94FB981E0291A4009B76EF /* RebarReverb */;
+			targetProxy = 3C94FBAE1E0291A5009B76EF /* PBXContainerItemProxy */;
+		};
+		3C94FBBA1E0291A5009B76EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C94FB981E0291A4009B76EF /* RebarReverb */;
+			targetProxy = 3C94FBB91E0291A5009B76EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C94FBA01E0291A5009B76EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C94FBA11E0291A5009B76EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C94FBA51E0291A5009B76EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C94FBA61E0291A5009B76EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C94FBBF1E0291A5009B76EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C94FBC01E0291A5009B76EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C94FBC21E0291A5009B76EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A;
+				INFOPLIST_FILE = RebarReverb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.arru.example.RebarReverb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3C94FBC31E0291A5009B76EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A;
+				INFOPLIST_FILE = RebarReverb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.arru.example.RebarReverb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3C94FBC51E0291A5009B76EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A;
+				INFOPLIST_FILE = RebarReverbTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.arru.example.RebarReverbTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RebarReverb.app/RebarReverb";
+			};
+			name = Debug;
+		};
+		3C94FBC61E0291A5009B76EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A;
+				INFOPLIST_FILE = RebarReverbTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.arru.example.RebarReverbTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RebarReverb.app/RebarReverb";
+			};
+			name = Release;
+		};
+		3C94FBC81E0291A5009B76EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A;
+				INFOPLIST_FILE = RebarReverbUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.arru.example.RebarReverbUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RebarReverb;
+			};
+			name = Debug;
+		};
+		3C94FBC91E0291A5009B76EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A;
+				INFOPLIST_FILE = RebarReverbUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.arru.example.RebarReverbUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RebarReverb;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C94FB941E0291A4009B76EF /* Build configuration list for PBXProject "RebarReverb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C94FBBF1E0291A5009B76EF /* Debug */,
+				3C94FBC01E0291A5009B76EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C94FBC11E0291A5009B76EF /* Build configuration list for PBXNativeTarget "RebarReverb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C94FBC21E0291A5009B76EF /* Debug */,
+				3C94FBC31E0291A5009B76EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C94FBC41E0291A5009B76EF /* Build configuration list for PBXNativeTarget "RebarReverbTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C94FBC51E0291A5009B76EF /* Debug */,
+				3C94FBC61E0291A5009B76EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C94FBC71E0291A5009B76EF /* Build configuration list for PBXNativeTarget "RebarReverbUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C94FBC81E0291A5009B76EF /* Debug */,
+				3C94FBC91E0291A5009B76EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C94FB911E0291A4009B76EF /* Project object */;
+}
