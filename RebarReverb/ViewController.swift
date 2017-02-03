@@ -2,8 +2,7 @@
 //  ViewController.swift
 //  RebarReverb
 //
-//  Created by Arvid Rudling on 2016-12-15.
-//  Copyright © 2016 Allihoopa. All rights reserved.
+//  Copyright © 2016 Arvid Rudling. MIT License, see included LICENSE file
 //
 
 import UIKit

@@ -29,7 +29,7 @@ are fine). Aim camera at some barcode:
 
 License
 -------
-Rebar barcode reverb copyright © 2017 Arvid Rudling/Allihoopa AB.
+Rebar barcode reverb copyright © 2017 Arvid Rudling.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
