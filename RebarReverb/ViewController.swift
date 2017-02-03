@@ -159,10 +159,10 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
 			// largeHall2 is the last of AVAudioUnitReverbPresets
 			let newPreset: AVAudioUnitReverbPreset! = AVAudioUnitReverbPreset(rawValue: code % (AVAudioUnitReverbPreset.largeHall2.rawValue + 1))
 			reverb.loadFactoryPreset(newPreset)
-			reverb.wetDryMix = Float(code % 19843) / 198.43
+			reverb.wetDryMix = Float(code % 41011) / 410.11
 
-			delay.wetDryMix = Float(code % 9949) / 99.49
-			delay.feedback = Float(code % 9967) / 99.67
+			delay.wetDryMix = Float(code % 3203) / 32.03
+			delay.feedback = Float(code % 4993) / 49.93
 			delay.delayTime = TimeInterval(0.01 + pow(Double(code % 31583) / 10000.0, 2.0))
 			//The valid range of lowPassCutoff values is 10 Hz through (sampleRate/2).
 			delay.lowPassCutoff = 10.0 + pow(3.17+Float(code % 13997)/100.0,2.0)
