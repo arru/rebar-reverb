@@ -27,6 +27,8 @@ are fine). Aim camera at some barcode:
 * Red outline = found a barcode whose value could not be used for parameters
 * Brown outline = found a metadata object in the image that is something other than a barcode (point at someone's face to try it out!)
 
+After scanning, try singning or otherwise listen for the altered effect.
+
 License
 -------
 Rebar barcode reverb copyright © 2017 Arvid Rudling.
